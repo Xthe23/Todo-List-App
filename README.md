@@ -1,6 +1,6 @@
-# Todo List App, created with React and styled with TailwindCSS
+# Todo List App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Created with React and stylized with TailwindCSS
 
 ## Available Scripts
 
