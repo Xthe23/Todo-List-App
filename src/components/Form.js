@@ -18,7 +18,7 @@ const Form = ({ inputText, setInputText, setTodos, todos, setStatus }) => {
 
   return (
     <form className="flex items-center">
-      <div className="flex-auto border-b border-white-500 m-5 p-5">
+      <div className="flex-auto  m-5 p-5">
         <input
           type="text"
           value={inputText}
@@ -32,6 +32,7 @@ const Form = ({ inputText, setInputText, setTodos, todos, setStatus }) => {
         >
           <i className="fas fa-feather-alt text-white fa-lg"></i>
         </button>
+
         <select
           onChange={statusHandler}
           name="todos"
